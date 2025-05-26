@@ -9,8 +9,10 @@ The limitation of max_length imposed by CLIP is 77. This is a significant limita
 - [ ] Visualize attention layer
 - [ ] Visualize conv layer 
 - [ ] Adapative lora based on the weights. 
-- [ ] 赵孟頫，
-- [ ] 颜真卿 data set to see whether we can mix the style.
+- [ ] 赵孟頫 add data set
+- [ ] 褚遂良 add data set
+- [ ] 颜真卿 data set to
+- [ ] experiment to see whether we can mix the style.
 - [ ] Add “书法” to all text. 
 
 ## eval!!!!
