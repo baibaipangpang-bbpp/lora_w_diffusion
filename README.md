@@ -24,7 +24,8 @@
 - [ ] 褚遂良 add data set
 - [ ] 颜真卿 data set to
 - [x] Add “书法” to all text.
-- [ ] data augmentation 
+- [ ] data augmentation
+- [ ] add data agumentation w/ kornia
 
 
 ## experiments 
