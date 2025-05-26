@@ -1,3 +1,11 @@
+# running instructions 
+1. add image/text pair to data directory. the default setting is 139 files for 米芾
+2. the data_curate directory has more datasets. if desired, copy curated data to the data directory to train on different data set. 
+3. run lora_sd_colab using GPU. (CPU won't work) 
+
+
+
+# TODO
 ## communication with TA
 - [ ] need to sync up with TA for communication and alignment purpose. 
 
@@ -16,7 +24,8 @@ The limitation of max_length imposed by CLIP is 77. This is a significant limita
 - [ ] 褚遂良 add data set
 - [ ] 颜真卿 data set to
 - [ ] experiment to see whether we can mix the style.
-- [ ] Add “书法” to all text. 
+- [ ] Add “书法” to all text.
+- [ ] data augmentation 
 
 
 ## experiments 
