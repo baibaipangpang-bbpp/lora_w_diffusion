@@ -1,6 +1,7 @@
-# patch_unet.py
-from lora import LoRALinear, LoRAConv2d
+import torch
 import torch.nn as nn
+from lora import LoRALinear, LoRAConv2d
+
 
 def patch_unet_with_lora(unet, r=4, alpha=1.0, dropout=0.0, enable_linear=True, enable_conv=False, conv_filter=None):
     to_patch = []
@@ -41,4 +42,26 @@ def conv_filter(name, layer):
     return False
 
 
+def save_lora_weights(model, path="lora_weights.pth"):
+    lora_state_dict = {}
+    for name, module in model.named_modules():
+        if isinstance(module, (LoRALinear, LoRAConv2d)):
+            lora_state_dict[name + ".lora_down.weight"] = module.lora_down.weight
+            lora_state_dict[name + ".lora_up.weight"] = module.lora_up.weight
+    torch.save(lora_state_dict, "lora_weights.pth")
 
+# torch.save(
+#     {k: v.cpu() for k, v in pipe.unet.state_dict().items() if "lora" in k},
+#     "lora_weights.pth"
+# )
+
+def load_lora_weights(model, path="lora_weights.pth"):
+    state_dict = torch.load(path)
+    for name, module in model.named_modules():
+        if isinstance(module, (LoRALinear, LoRAConv2d)):
+            down_key = name + ".lora_down.weight"
+            up_key = name + ".lora_up.weight"
+            if down_key in state_dict:
+                module.lora_down.weight.data.copy_(state_dict[down_key])
+            if up_key in state_dict:
+                module.lora_up.weight.data.copy_(state_dict[up_key])
