@@ -18,15 +18,15 @@
 ## Things to do
 - ✅ Wandb integration 
 - ✅ implement lora to conv layer  
-- [ ] Visualize attention layer
-- [ ] Visualize conv layer 
-- [ ] Adapative lora based on the weights. 
-- [ ] 赵孟頫 add data set
-- [ ] 褚遂良 add data set
-- [ ] 颜真卿 data set to
 - ✅ Add “书法” to all text.
 - ✅ data augmentation
 - ✅ add data agumentation w/ kornia
+- [ ] Visualize attention layer
+- [ ] Visualize conv layer
+- [ ] 赵孟頫 add data set
+- [ ] 褚遂良 add data set
+- [ ] 颜真卿 data set to
+- [ ] Adapative lora based on the weights. 
 
 
 ## experiments 
