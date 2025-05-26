@@ -15,7 +15,7 @@
 
 
 ## Things to do
-- [ ] Wandb integration 
+- ✅ Wandb integration 
 - ✅ implement lora to conv layer  
 - [ ] Visualize attention layer
 - [ ] Visualize conv layer 
