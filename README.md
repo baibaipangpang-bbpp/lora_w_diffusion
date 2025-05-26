@@ -32,6 +32,7 @@
 - [ ] try different dropout
 - [ ] compare performance of lora on attention only, conv only, and attention+conv.
 - [ ] experiment to see whether we can mix the style.
+- [ ] try different agumentation settings
 
 
 ## eval!!!!
