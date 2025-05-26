@@ -1,3 +1,6 @@
+## communication with TA
+- [ ] need to sync up with TA for communication and alignment purpose. 
+
 ## Future work idea: 
 The limitation of max_length imposed by CLIP is 77. This is a significant limitation for the task on hand, as the caligraphy is usually a piece of text, I was hoping to get the model to understand the 1:1 mapping of the words.  Encorporating T5/BERT model to text embedding could be explored to eleviate the limitations. 
 
