@@ -18,6 +18,11 @@ The limitation of max_length imposed by CLIP is 77. This is a significant limita
 - [ ] experiment to see whether we can mix the style.
 - [ ] Add “书法” to all text. 
 
+
+## experiments 
+- [ ] try different dropout
+
+
 ## eval!!!!
 
 
