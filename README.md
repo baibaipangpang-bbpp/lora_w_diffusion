@@ -8,7 +8,8 @@
 
 # TODO
 ## communication with TA
-- [ ] need to sync up with TA for communication and alignment purpose. 
+- [@jieshuh2 ] need to sync up with TA for communication and alignment purpose.
+
 
 ## Future work idea: 
 * The limitation of max_length imposed by CLIP is 77. This is a significant limitation for the task on hand, as the caligraphy is usually a piece of text, I was hoping to get the model to understand the 1:1 mapping of the words.  Encorporating T5/BERT model to text embedding could be explored to eleviate the limitations. 
@@ -22,21 +23,22 @@
 - ✅ data augmentation
 - ✅ add data agumentation w/ kornia
 - ✅ 褚遂良 add data set
-- [ ] Visualize attention layer
-- [ ] Visualize conv layer
-- [ ] Adapative lora based on the weights
-- [ ] 赵孟頫 add data set
-- [ ] 颜真卿 data set to
+- [ @huici ] Visualize attention layer
+- [ @huici ] Visualize conv layer
+- [ jieshuh2 ] Adapative lora based on the gradient 
+- [cancel] 赵孟頫 add data set
+- [cancel] 颜真卿 data set to
 
 
 ## experiments 
-- [ ] try different dropout
-- [ ] compare performance of lora on attention only, conv only, and attention+conv.
-- [ ] experiment to see whether we can mix the style.
-- [ ] try different agumentation settings
+- [ zhiyin ] try different dropout
+- [ zhiyin ] compare performance of lora on attention only, conv only, and attention+conv.
+- [ zhiyin ] experiment to see whether we can mix the style.
+- [ zhiyin ] try different agumentation settings
 
 
 ## eval!!!!
+- [ jieshuh2 ] quantified eval clip 
 
 
 
