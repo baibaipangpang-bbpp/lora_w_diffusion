@@ -27,13 +27,12 @@ Generate images using the base stable diffusion model without fine tuning. the g
 - ✅ Add “书法” to all text.
 - ✅ data augmentation
 - ✅ add data agumentation w/ kornia
-- ✅ 褚遂良 add data set
+- ✅ 褚遂良 add data set （have to remove data from 碑, as results are worse.
+- ✅ 赵孟頫 add data set
+- ✅ 文征明 data set to
 - [ @huici ] Visualize attention layer
 - [ @huici ] Visualize conv layer
 - [ jieshuh2 ] Adapative lora based on the gradient 
-- [cancel] 赵孟頫 add data set
-- [cancel] 颜真卿 data set to
-
 
 ## experiments 
 - [ zhiyin ] try different dropout
