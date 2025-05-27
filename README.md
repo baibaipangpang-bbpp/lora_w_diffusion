@@ -40,10 +40,18 @@ Generate images using the base stable diffusion model without fine tuning. the g
 - [ zhiyin ] compare performance of lora on attention only, conv only, and attention+conv.
 - [ zhiyin ] experiment to see whether we can mix the style.
 - [ zhiyin ] try different agumentation settings
+    - Dataset diversity is more important than aggressive augmentation—cover different calligraphy styles (e.g., 行书, 草书, 隶书).
+    - Use higher-resolution crops (e.g., 512x512 or larger) to retain fine-grained stroke details.
+    -
+
+
+
 
 
 ## eval!!!!
-- [ jieshuh2 ] quantified eval clip 
+- notes: Track visual quality with CLIP-based similarity or a calligraphy-style classifier to avoid overfitting.
+- [ jieshuh2 ] quantified eval clip
+
 
 
 
