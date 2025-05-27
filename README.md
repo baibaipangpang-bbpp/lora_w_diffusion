@@ -1,6 +1,7 @@
 # running instructions 
 ### base line 
-1. run baseline_sd_sample. the generated file are stored under base_line_imgs directory.
+Generate images using the base stable diffusion model without fine tuning. the generated file are stored under base_line_imgs directory.
+1. run baseline_sd_sample
 
 ### lora fine tuning 
 1. add image/text pair to data directory. the default setting is 139 files for 米芾
