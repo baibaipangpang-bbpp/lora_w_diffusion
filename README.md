@@ -11,6 +11,14 @@ Generate images using the base stable diffusion model without fine tuning. the g
 
 
 
+# Data 
+- effective dataset size: 250
+- 褚遂良 24 （have to remove data from 碑, as results are worse.
+- 赵孟頫 24
+- 文征明 63 
+- 米芾 139
+
+
 # TODO
 ## communication with TA
 - [@jieshuh2 ] need to sync up with TA for communication and alignment purpose.
@@ -21,15 +29,16 @@ Generate images using the base stable diffusion model without fine tuning. the g
 
 
 
+
 ## Things to do
 - ✅ Wandb integration 
 - ✅ implement lora to conv layer  
 - ✅ Add “书法” to all text.
 - ✅ data augmentation
 - ✅ add data agumentation w/ kornia
-- ✅ 褚遂良 add data set （have to remove data from 碑, as results are worse.
+- ✅ 褚遂良 add data set 
 - ✅ 赵孟頫 add data set
-- ✅ 文征明 data set to
+- ✅ 文征明 add data set 
 - [ @huici ] Visualize attention layer
 - [ @huici ] Visualize conv layer
 - [ jieshuh2 ] Adapative lora based on the gradient 
