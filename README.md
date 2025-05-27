@@ -21,12 +21,12 @@
 - ✅ Add “书法” to all text.
 - ✅ data augmentation
 - ✅ add data agumentation w/ kornia
+- ✅ 褚遂良 add data set
 - [ ] Visualize attention layer
 - [ ] Visualize conv layer
+- [ ] Adapative lora based on the weights
 - [ ] 赵孟頫 add data set
-- [ ] 褚遂良 add data set
 - [ ] 颜真卿 data set to
-- [ ] Adapative lora based on the weights. 
 
 
 ## experiments 
