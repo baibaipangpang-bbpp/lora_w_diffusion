@@ -1,0 +1,7 @@
+diffusers
+transformers
+accelerate
+torchvision
+safetensors
+kornia
+wandb
