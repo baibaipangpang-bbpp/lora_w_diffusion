@@ -1,4 +1,8 @@
 # running instructions 
+### base line 
+1. run baseline_sd_sample. the generated file are stored under base_line_imgs directory.
+
+### lora fine tuning 
 1. add image/text pair to data directory. the default setting is 139 files for 米芾
 2. add your wandb api key to the colab 
 3. the data_curate directory has more datasets. if desired, copy curated data to the data directory to train on different data set. 
