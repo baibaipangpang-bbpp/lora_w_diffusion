@@ -59,6 +59,17 @@ Generate images using the base stable diffusion model without fine tuning. the g
 ## eval!!!!
 - notes: Track visual quality with CLIP-based similarity or a calligraphy-style classifier to avoid overfitting.
 - [ jieshuh2 ] quantified eval clip
+    - base model:
+      -  use chinese prompt to generate images, we can't get good images for caligraphy
+      -  use english prompt, we can get caligraphy images;
+          - next step:  
+    - use trained model:
+      - to be completed;
+     
+- quantitative eval:
+    - clip score
+    - FID score: compare fake image and real image similarity
+    - 
 
 
 
