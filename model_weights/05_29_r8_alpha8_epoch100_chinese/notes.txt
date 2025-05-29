@@ -1,0 +1,9 @@
+model ran 100 minutes. 
+
+undesired running procedure: 
+- the clip score that was logged during the training was an english prompt. we should have chinese prompt. 
+
+
+undesired result: 
+- the prompt of "a beautiful sunset in California" also returns a caligraph input. 
+this could indicate an overfitting issue. 
