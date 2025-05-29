@@ -62,14 +62,19 @@ Generate images using the base stable diffusion model without fine tuning. the g
     - base model:
       -  use chinese prompt to generate images, we can't get good images for caligraphy
       -  use english prompt, we can get caligraphy images;
-          - next step:  
-    - use trained model:
-      - to be completed;
+      -  negative prompt
+         - use unrelated prompt (e.g. sunset), we can get realistic and diversified images
+         - use similar prompt (e.g. text), we can get realistic and diversified images
+    - use model tuned with Chinese prompt:
+      -  use chinese prompt to generate images, we get images similar to caligraphy but is not readable (CLIP increases)
+      -  use english prompt, we can get caligraphy images (CLIP increases);
+      -  negative prompt
+         - use unrelated prompt (e.g. sunset), we get distorted images baked in with caligraphy style (CLIP decreases)
+         - use similar prompt (e.g. text), we can get images similar to caligraphy; (CLIP decreases)
      
 - quantitative eval:
     - clip score
     - FID score: compare fake image and real image similarity
-    - 
 
 
 
