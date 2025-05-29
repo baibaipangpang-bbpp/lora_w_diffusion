@@ -17,6 +17,8 @@ Generate images using the base stable diffusion model without fine tuning. the g
 - 赵孟頫 24
 - 文征明 63 
 - 米芾 139
+- data directory contains english based training data
+- data_chinese directory contains chinese based training data. 
 
 
 # TODO
@@ -50,10 +52,6 @@ Generate images using the base stable diffusion model without fine tuning. the g
 -  ✅ try different agumentation settings
     - Dataset diversity is more important than aggressive augmentation—cover different calligraphy styles (e.g., 行书, 草书, 隶书).
     - Use higher-resolution crops (e.g., 512x512 or larger) to retain fine-grained stroke details.
-    -
-
-
-
 
 
 ## eval!!!!
