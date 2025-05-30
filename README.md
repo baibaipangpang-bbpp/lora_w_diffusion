@@ -41,14 +41,14 @@ Generate images using the base stable diffusion model without fine tuning. the g
 - ✅ 褚遂良 add data set 
 - ✅ 赵孟頫 add data set
 - ✅ 文征明 add data set 
-- [ @huici ] Visualize attention layer
-- [ @huici ] Visualize conv layer
+- ✅  Visualize attention layer
+- ✅  Visualize conv layer
 - [ jieshuh2 ] Adapative lora based on the gradient 
 
 ## experiments 
-- [ zhiyin ] try different dropout
-- [ zhiyin ] compare performance of lora on attention only, conv only, and attention+conv.
-- [ zhiyin ] experiment to see whether we can mix the style.
+- [ jieshu ] try different rank and alpha
+- [ huici ] compare performance of lora on attention only, conv only, and attention+conv.
+- [ cancelled ] experiment to see whether we can mix the style.
 -  ✅ try different agumentation settings
     - Dataset diversity is more important than aggressive augmentation—cover different calligraphy styles (e.g., 行书, 草书, 隶书).
     - Use higher-resolution crops (e.g., 512x512 or larger) to retain fine-grained stroke details.
