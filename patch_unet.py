@@ -50,7 +50,8 @@ def save_lora_weights(model, path="lora_weights.pth"):
         if isinstance(module, (LoRALinear, LoRAConv2d)):
             lora_state_dict[name + ".lora_down.weight"] = module.lora_down.weight
             lora_state_dict[name + ".lora_up.weight"] = module.lora_up.weight
-    torch.save(lora_state_dict, "lora_weights.pth")
+    torch.save(lora_state_dict, path)
+    print(f"model written to {path}")
 
 # torch.save(
 #     {k: v.cpu() for k, v in pipe.unet.state_dict().items() if "lora" in k},
@@ -58,6 +59,7 @@ def save_lora_weights(model, path="lora_weights.pth"):
 # )
 
 def load_lora_weights(model, path="lora_weights.pth"):
+    print(f"model to be loaded from {path}")
     state_dict = torch.load(path)
     for name, module in model.named_modules():
         if isinstance(module, (LoRALinear, LoRAConv2d)):
