@@ -164,5 +164,3 @@ def plot_activations(layer_name, num_cols=16, scale=1.5, batch_index=0): # Added
     plt.tight_layout(rect=[0, 0.03, 1, 0.95])
     plt.show()
     # plt.savefig(f"activations_{layer_name.replace('.', '_')}_b{batch_index}.png")
-
-
